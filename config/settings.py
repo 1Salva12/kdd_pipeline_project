@@ -26,7 +26,12 @@ SECRET_KEY = "django-insecure-=_llqq1dr@3uruovy^b_7jr9#o2hgw+o(rhu0+(glo$c&j6@*d
 DEBUG = os.environ.get('DEBUG', 'False') == 'True'
 
 
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = [
+    "kddpipelineproject-production.up.railway.app",
+    ".up.railway.app",
+    "*",
+]
+
 
 
 # Application definition
